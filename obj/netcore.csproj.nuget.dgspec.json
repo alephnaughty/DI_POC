@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\netcore\\netcore.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\netcore\\netcore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\netcore\\netcore.csproj",
+        "projectName": "netcore",
+        "projectPath": "C:\\dev\\netcore\\netcore.csproj",
+        "packagesPath": "C:\\Users\\E33BF9\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\netcore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\E33BF9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ehi.pkgs.visualstudio.com/_packaging/AppSecRole/nuget/v3/index.json": {},
+          "https://ehi.pkgs.visualstudio.com/_packaging/EHI/nuget/v3/index.json": {},
+          "https://ehi.pkgs.visualstudio.com/_packaging/ehi.common.azure.lib%40Local/nuget/v3/index.json": {},
+          "https://ehi.pkgs.visualstudio.com/cd23d53a-6725-4f82-aa6b-2d9dd6f2d345/_packaging/Ehi.Auth.Lib/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
